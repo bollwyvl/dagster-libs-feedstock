@@ -855,6 +855,7 @@ outputs:
         - ${{ pin_subpackage("dagster-gcp", upper_bound="x.x.x") }}
         - pandas <3.0.0
         - python >=${{ python_min }}
+        - setuptools
     tests:
       - package_contents:
           strict: true
